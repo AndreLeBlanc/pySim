@@ -47,3 +47,5 @@ class Kassa:
         numVaror = self.hanteraKund()
         self.printRes(numVaror)
         
+    def whoami(self):
+        return self.num
