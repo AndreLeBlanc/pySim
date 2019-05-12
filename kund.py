@@ -11,3 +11,10 @@ class Kund:
     
     def varDetAllt(self):
         return self.numVaror
+
+class Gamling(Kund):
+    def tick(self):
+        if rand.random() < 0.5:
+            return super().tick()
+        else:
+            return super().varDetAllt()
